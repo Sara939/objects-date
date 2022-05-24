@@ -147,18 +147,58 @@
 
 // }
 // console.log(comperdate()); 
-//171://///////////////////////
+//171:
 
-// function getage(){
-//     var a = prompt("date");
-//     var b= new Date(a);
-//     var c= new Date();
-//     yearone= b.getFullYear()
-//     yeartwo= c.getFullYear()
-//     var d= (yeartwo-yearone);
-//     return d;
+// function getdate(){
+//     var usersage= prompt("whats your date of birth");
+//     var yearofbirth= new Date (usersage).getFullYear();
+//     var todaysyer= new Date ().getFullYear();
+//     age= todaysyer-yearofbirth
+//     console.log(age);
+//         return age;
 // }
-// getage();
+// // getdate();
+
+//172:
+// function elartmassage(){
+//     var usersage= prompt("whats your date of birth");
+//     var yearofbirth= new Date (usersage).getFullYear();
+//     var todaysyer= new Date ().getFullYear();
+//     age= todaysyer-yearofbirth
+//     console.log(age);
+
+//     if (age>18){
+//         alert("u alowd to enter");
+//     }
+//     else{
+//         alert("u not alowd to enter")
+//     }
+// }
+// elartmassage();
+
+//173://///////////////////////////////////////////////////////
+
+// function locate(){
+//     var obnew= new Date().getCurrentPosition();
+//     window.navigator.geolocation.getCurrentPosition
+
+// }
+
+/////174:
+// function randomdate(){
+//     var mon= Math.floor(Math.random()*12);
+//     var da= Math.floor(Math.random()*31+1);
+//     var ye= Math.floor(Math.random()*32) +1990;
+//     console.log(mon, da, ye);
+// }
+// randomdate();
+
+
+
+
+
+
+
 
 
 
